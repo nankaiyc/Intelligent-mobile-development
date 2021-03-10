@@ -1,4 +1,4 @@
-# Flutter
+# Flutter Introduction
 
 ## preface
 With the maturity of mobile development technology, some manufacturers began to consider cross platform technology solutions, from <strong>Cordova</strong> and <strong>Xamarin</strong> in the early stage to <strong>React Native</strong>, <strong>weex</strong> and so on, can be said to be a hundred, each framework has its own advantages and disadvantages, but the goal is the same, that is to improve the efficiency of application development, reduce the cost of research and development, a set of code to run multiple platforms. Except for <strong>Xamarin</strong>, these frameworks all use web technology to develop mobile applications, but provide better user experience than web.
