@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="edittext_uri">https://www.baidu.com/</string>
+    <string name="button_uri">Open Website</string>
+    <string name="edittext_loc">南开大学泰达校区西南门</string>
+    <string name="button_loc">Open Location</string>
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+</resources>
