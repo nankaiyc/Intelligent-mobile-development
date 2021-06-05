@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:id="@+id/list">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:id="@+id/figure_pic"
+            android:src="@mipmap/caocao"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="诸葛亮"
+            android:textSize="30sp"
+            android:layout_toRightOf="@+id/figure_pic"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蜀国"
+            android:textSize="30sp"
+            android:layout_toRightOf="@+id/name"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@color/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>
